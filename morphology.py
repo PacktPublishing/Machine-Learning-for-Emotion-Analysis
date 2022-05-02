@@ -105,14 +105,14 @@ def compileFST(fst):
             """V0 will match any vowel and bind to V0"""
             if c == "V":
                 range = "[aeiou]"
-            """C0 will match any consonant and bind to C0"""
+                """C0 will match any consonant and bind to C0"""
             elif c == "C":
                 range = "[qwrtypsdfghjklzxcvbnm]"
-            """ 
-            X0:(q|w|e) will match any of "q", "w" or "e" and bind it
-            to X0. You can use this to define new classes on the fly,
-            e.g. x|s(h|s)|ch
-            """ 
+                """ 
+                X0:(q|w|e) will match any of "q", "w" or "e" and bind
+                it to X0. You can use this to define new classes on
+                the fly, e.g. x|s(h|s)|ch
+                """ 
             elif c == "X" and x[2] == ":":
                 range = x[3:]
             else:

@@ -140,7 +140,7 @@ BNCWORD = re.compile("""<(?P<tagtype>w|c) .*?c5="(?P<c5>.*?)".*?>(?P<form>.*?)\s
 Get raw text from BNC leaf files
 """
 def BNCWordReader(data):
-    print(data)
+    sys.stdout.write("\r%s"%(data))
     for i in BNCWORD.finditer(open(data).read()):
         form = i.group("form")
         if form.lower() == "vh":
@@ -162,7 +162,7 @@ and you can use taglength to convert tags like VVS, NN0 to VV, NN.
 
 def BNCTaggedWordReader(data, tagtype="c5", specials={}, taglength=2):
     if os.path.exists(data):
-        print(data)
+        sys.stdout.write("\r%s"%(data))
         data = open(data).read()
     for i in BNCWORD.finditer(data):
         form = i.group("form")
@@ -177,7 +177,7 @@ Pattern for splitting the BNC at sentence boundaries
 BNCSENTENCE = re.compile("""<s n="(?P<n>\d*)">(?P<text>.*?)</s>""", re.DOTALL)
 
 def BNCTaggedSentenceReader(data, wordreader=BNCTaggedWordReader):
-    print(data)
+    sys.stdout.write("\r%s"%(data))
     data = open(data).read()
     for sentence in BNCSENTENCE.finditer(data):
         yield list(wordreader(sentence.group("text")))
