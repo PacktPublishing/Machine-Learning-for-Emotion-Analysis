@@ -1,7 +1,7 @@
-# Machine Learning for Emotion Analysis
-<a href="https://www.packtpub.com/product/machine-learning-for-emotion-analysis-in-python/9781803240688"><img src="https://content.packt.com/B18714/cover_image_small.jpeg" alt="Machine Learning for Emotion Analysis" height="256px" align="right"></a>
+# Machine Learning for Emotion Analysis in Python
+<a href="https://www.packtpub.com/product/machine-learning-for-emotion-analysis-in-python/9781803240688"><img src="https://content.packt.com/B18714/cover_image_small.jpeg" alt="Machine Learning for Emotion Analysis in Python" height="256px" align="right"></a>
 
-This is the code repository for [Machine Learning for Emotion Analysis](https://www.packtpub.com/product/machine-learning-for-emotion-analysis-in-python/9781803240688), published by Packt.
+This is the code repository for [Machine Learning for Emotion Analysis in Python](https://www.packtpub.com/product/machine-learning-for-emotion-analysis-in-python/9781803240688), published by Packt.
 
 **Build AI-powered tools for analyzing emotion using natural language processing and machine learning**
 
