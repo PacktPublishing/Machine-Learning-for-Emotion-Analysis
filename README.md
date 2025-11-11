@@ -1,3 +1,5 @@
+<p align='center'><a href='https://www.eventbrite.com/e/algorithmic-trading-with-python-cohort-2-tickets-1833367644979?aff=oddtdtcreator'><img src='https://static.packt-cdn.com/assets/images/packt+events/Python_for_Algorithmic Trading_v1.png'/></a></p>
+
 # Machine Learning for Emotion Analysis in Python
 <a href="https://www.packtpub.com/product/machine-learning-for-emotion-analysis-in-python/9781803240688"><img src="https://content.packt.com/B18714/cover_image_small.jpeg" alt="Machine Learning for Emotion Analysis in Python" height="256px" align="right"></a>
 
